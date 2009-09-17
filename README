@@ -1,0 +1,24 @@
+TOTE -- An addictively helpful TDD harness for Perl 6
+
+Nothing to see here, yet. I'm just releasing early. The idea for this
+piece of software is outlined over here:
+<http://use.perl.org/~masak/journal/39639>
+
+Next steps:
+
+* Make a simple script that recognizes when any of a given set of files
+  is saved
+
+* Make it run 'make'
+
+* If 'make' succeeds, make it run 'make test'
+
+* Introduce smart analysis of the test results: recognize regressions,
+  no change compared to the last checkpoint, or an improvement.
+
+* Make it react right to these three outcomes: go back to dev mode
+  on regressions or no change, go to checkpoint on improvements.
+
+* Introduce automatic commits.
+
+* Make the test mode work as intended.
